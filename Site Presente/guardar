@@ -1,0 +1,36 @@
+}
+.card{
+    width: 300px;
+    height: 147px;
+    background: linear-gradient(rgb(105, 105, 188),rgb(25, 25, 42));
+    opacity: 40%;
+    margin-top: -600px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0 2px 4px 0 rgba(255, 255, 255, 0.581);
+}
+.nome_musica{
+    font-size: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 87px;
+    color: aliceblue;
+    z-index: 9999;
+}
+.waveforms{
+    font-size: 17px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    margin-top: -82px;
+    margin-left: 15px;
+    z-index: 9999;
+}
+.linha{
+    font-size: 17px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 15px;
+    z-index: 9999;
+}

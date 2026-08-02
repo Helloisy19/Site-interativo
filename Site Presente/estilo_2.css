@@ -1,0 +1,343 @@
+/*CORAÇÕES FLUTUANTES*/
+.variavel{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+.icone{
+    width: 35px;
+    height: 35px;
+    background-image: url(Menor.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: animar;
+    animation-duration: calc(300s / var(--i));
+    animation-timing-function: linear;
+    animation-iteration-count: infinite
+    
+}
+@keyframes animar{
+    0%{ 
+        transform: translateY(100vh) scale(0) rotate(0deg);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1) rotate(360deg);
+    }
+}
+
+/*MÚSICA*/
+.play{
+    margin-top: -600px;
+    margin-left: 10px;
+}
+
+/*CONTADOR*/
+.fundo_contador{
+    width: 940px;
+    height: 450px;
+    background: linear-gradient(rgb(68, 68, 142), rgb(6, 6, 34));
+    margin-top: 10px;
+    margin-left: 200px;
+    opacity: 40%;
+    border-radius: 20px;
+}
+.titulo h1{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    margin-top: -450px;
+    margin-left: 450px;
+}
+.titulo p{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left:535px;
+}
+.contador{
+    display: flex;
+    gap: 2px;
+}
+.contador div p{
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 220px;
+    
+}
+.contador div span{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 220px;
+}
+.contador_2{
+    display: flex;
+    gap: -3em;
+}
+.contador_2 div p{
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 220px;
+}
+.contador_2 div span{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 220px;
+}  
+
+/*GALERIA DE FOTOS*/
+#galeria_titulo{
+    display: flex;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(109, 155, 194);
+    position: absolute;
+    top: 876px;
+    left: 400px;
+    font-weight: 300;
+}
+.galeria_1 img{
+    width: 175px;
+    display: flex;
+    margin-top: -1000px;
+    z-index: 9999;
+}
+#a{
+    margin-top: 520px;
+    margin-left: 287px;
+}
+#b{
+    margin-top: -4px;
+    margin-left: 20px;
+}
+#c{
+    margin-top: -600px;
+    margin-left: 13px;
+    
+}
+#d{
+    margin-top: 60px;
+    margin-left: 230px;
+
+
+}
+#e{
+    margin-top: -400px;
+    margin-left: 440px;
+}
+#f{
+    margin-top: -440px;
+    margin-left: 530px;
+    transform: rotate(-90deg);
+}
+#g{
+    margin-top: 100px;
+    margin-left: 490px;
+    transform: rotate(-90deg);
+}
+#h{
+    margin-top: -450px;
+    margin-left: 670px;
+    transform: rotate(-90deg);
+}
+#i{
+    margin-top: -440px;
+    margin-left: 765px;   
+}
+#j{
+    margin-top: 50px;
+    margin-left: 715px;    
+}
+#k{
+    margin-top: -620px;
+    margin-left: 989px;
+    transform: rotate(-90deg);
+}
+#l{
+    margin-top: -80px;
+    margin-left: 920px;    
+}
+#m{
+    margin-top: -300px;
+    margin-left: 1125px; 
+}
+#n{
+    margin-top: -40px;
+    margin-left: 1000px; 
+    transform: rotate(-90deg);
+}
+
+/*CORAÇÕES FLUTUANTES 2*/
+.variavel_2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+.icone{
+    width: 35px;
+    height: 35px;
+    background-image: url(Menor.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: animar;
+    animation-duration: calc(300s / var(--i));
+    animation-timing-function: linear;
+    animation-iteration-count: infinite
+}
+@keyframes animar{
+    0%{ 
+        transform: translateY(100vh) scale(0) rotate(0deg);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1) rotate(360deg);
+    }
+}
+
+/*CORAÇÕES FLUTUANTES 3*/
+.variavel_3{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+.icone{
+    width: 35px;
+    height: 35px;
+    background-image: url(Menor.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: animar;
+    animation-duration: calc(300s / var(--i));
+    animation-timing-function: linear;
+    animation-iteration-count: infinite
+}
+@keyframes animar{
+    0%{ 
+        transform: translateY(100vh) scale(0) rotate(0deg);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1) rotate(360deg);
+    }
+}
+
+/*GALERIA SÓ DE UM*/
+#ele{
+    display: flex;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(109, 155, 194);
+    position: absolute;
+    top: 1600px;
+    left: 400px;
+    font-weight: 300;
+}
+.fotos{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    /*z-index: 9999;*/
+    position: relative;
+} 
+.fotos > div{
+    margin-top: 5rem;
+    flex: 1;
+    border-radius: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .8s cubic-bezier(.25,.4,.45,1.4);
+    z-index: 10;
+    position: relative;
+    overflow: hidden;
+}
+.fotos > div::before{
+    content: "";
+    position: absolute;
+    inset: 0;             /* top:0; right:0; bottom:0; left:0 */
+    background: linear-gradient(rgba(4, 4, 53, 0.91),rgba(0, 0, 0, 0.758));
+    transition: .5s;
+    opacity: var(--opacidade, 1);
+}
+.fotos > div:hover{
+    /*flex: 5;*/
+    transform: scale(2.5);
+    /*z-index: 8888;*/
+}
+
+/*PRA PRIMEIRA E ÚLTIMA FOT CRESCER APENAS PARA UM LADO*/
+.fotos > div:first-child{
+    transform-origin: left center;
+}
+.fotos > div:last-child{
+    transform-origin: right center;
+}
+
+/*CARTA => PÁGINA DE ENVELOPE COM SELO*/
+#titulo{
+    display: flex;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(109, 155, 194);
+    position: absolute;
+    top: 2200px;
+    left: 340px;
+    font-weight: 300;
+}
+.envelope{
+    display: flex;
+    width: 900px;
+    margin-top: 400px;
+    margin-left: 250px;
+    z-index: 10;
+    
+}
+
+#selo{
+    width: 500px;
+    margin-top: -800px;
+    margin-left: 412px;
+    transition: transform 0.5s ease;    
+}
+#selo:hover{
+    transform: scale(1.1);
+}
+
+/* CORAÇÕES FLUTUANTES 4 */
+.variavel_4{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    z-index: -1;
+}
+.icone{
+    width: 35px;
+    height: 35px;
+    z-index: -1;
+    background-image: url(Menor.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: animar;
+    animation-duration: calc(300s / var(--i));
+    animation-timing-function: linear;
+    animation-iteration-count: infinite
+}
+@keyframes animar{
+    0%{ 
+        transform: translateY(100vh) scale(0) rotate(0deg);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1) rotate(360deg);
+    }
+}
+
+

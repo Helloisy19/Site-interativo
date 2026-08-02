@@ -1,0 +1,75 @@
+        html,body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            
+        }
+        .retangulo{
+            width: 1350px;
+            height: 150px;
+            background-color:rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            margin-top: 20px;
+            z-index: 9999px;
+        }
+        .foto{
+            width: 923px;
+            margin-top: -100px;
+            margin-left: 210px;
+        }
+        .linha{
+            width: 1256px;
+            position: relative;
+            top: -770px;
+            left: 100px;
+        }
+        .icone{
+            width: 300px;
+            position: relative;
+            top: -1359px;
+            right: 80px;
+        }
+        .texto{
+            position: absolute;
+            top: 234px;
+            left: 390px;
+            color: black;
+            z-index: 9999;
+        }
+        .texto h1{
+            font-size: 50px;
+        }
+        .texto button{
+            font-size: 50px;
+            margin: 50px;
+            background-color: rgba(97, 75, 45, 0.697);
+            border: none;
+            border-radius: 20px;
+        }
+        button:hover{
+            transform: scale(1.05);
+            transition: 0.2;
+        }
+        #nao{
+            position: absolute;
+            z-index: 10000;
+            top: 407px;
+            left: 50%;
+            background-color: rgba(97, 75, 45, 0.697);
+            border: none;
+            border-radius: 20px;
+            font-size: 50px;
+            transition: all 0.3s ease-out;
+        }
+        #sim{
+            position: absolute;
+            z-index: 10000;
+            top: 407px;
+            left: 35%;
+            background-color: rgba(97, 75, 45, 0.697);
+            border: none;
+            border-radius: 20px;
+            font-size: 50px;            
+        }
+
+     

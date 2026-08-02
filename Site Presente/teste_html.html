@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    #iniciar{
+        margin-top: 300px;
+        margin-left: 500px;
+    }
+    #zero{
+        margin-top: -50px;
+        margin-left: 500px;
+        color: black;
+        font-size: large;
+    }
+
+</style>
+
+<body>
+    
+    <button id="iniciar">Iniciar</button>
+    <div id="zero">0</div>
+
+    <script>
+
+        function cont(){
+        
+        const agr = new Date();
+        const ants = new Date('2025 12 02');
+        const tempo = agr.getTime() - ants.getTime();
+        
+        const sgnds = Math.floor(tempo / 1000 );
+
+        const n = document.getElementById('zero');
+        n.innerHTML = sgnds;
+        }
+
+        function ini_cont(){
+            setInterval(cont, 1000);
+        }
+
+        const botao = document.getElementById('iniciar');
+        botao.addEventListener('click', ini_cont);
+        
+
+
+
+    </script>
+
+</body>
+</html>
